@@ -1,0 +1,81 @@
+/* styles.css - Basic Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#prayer-times {
+    font-size: 18px;
+}
+/* Existing styles from the original file */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#prayer-times {
+    font-size: 18px;
+}
+
+/* New Styles to Improve Appearance */
+body {
+    background-image: url('https://example.com/your-background-image.jpg'); /* Replace this URL with an actual image URL */
+    background-size: cover;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+}
+
+h1 {
+    color: #003366;
+}
+
+#prayer-times p {
+    font-weight: bold;
+    margin: 5px 0;
+}
